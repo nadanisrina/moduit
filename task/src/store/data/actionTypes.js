@@ -1,0 +1,3 @@
+export const ALL_DATA_LOAD = "ALL_DATA_LOAD";
+export const ALL_DATA_ERROR = "ALL_DATA_ERROR";
+export const ALL_DATA_SUCCESS = "ALL_DATA_SUCCESS";

@@ -1,0 +1,82 @@
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 10% 2%;
+  width: 100%;
+  height: 100%;
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li {
+  padding: 5px 10px;
+  margin: 1rem;
+}
+
+.nav-links a {
+  padding: 5px 10px;
+  background: #fff;
+  color: #5e5e5e;
+  text-decoration: none;
+}
+
+.nav-links a.active {
+  padding: 5px 10px;
+  background: #fff;
+  border-right: 5px solid #043ca4;
+  color: #292929;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  padding: 5px 10px;
+  background: #fff;
+  color: #292929;
+  font-weight: bold;
+}
+
+.nav-links button {
+  cursor: pointer;
+  border: 1px solid #292929;
+  color: #292929;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+/* 
+/* .nav-links button:focus {
+  outline: none;
+} */
+*/ .nav-links button:hover,
+.nav-links button:active {
+  padding: 5px 10px;
+  background: #fff;
+  border-right: 5px solid #043ca4;
+  color: #292929;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+  }
+
+  .nav-links li {
+    margin: 0 0.5rem;
+  }
+
+  .nav-links button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+
+  .nav-links button:hover,
+  .nav-links button:active {
+    background: #fff;
+    border-right: 5px solid #043ca4;
+    color: #292929;
+  }
+}
